@@ -7,7 +7,7 @@ const a = {
   },
 };
 
-const b = { ...a };
+const b = a;
 {
   // const b = { name: a.name, age: a.age, driving: a.driving }
 }
