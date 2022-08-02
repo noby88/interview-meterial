@@ -7,7 +7,7 @@ const list = [ 1, 2, 3, 4, 5, 6, 7, 8 ];
 
   // How could you extract the rest into a variable named Z
   {
-    // const [x, y, ...z] = list;
-    // console.log('the rest', z);
+    const [x, y, ...z] = list;
+    console.log('the rest', z);
   }
 }
